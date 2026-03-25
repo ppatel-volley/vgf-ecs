@@ -1,0 +1,1 @@
+{"version":3,"file":"SessionWorld.d.ts","sourceRoot":"","sources":["../../src/vgf/SessionWorld.ts"],"names":[],"mappings":"AAAA;;;;;GAKG;AACH,OAAO,EAAE,KAAK,EAAE,MAAM,kBAAkB,CAAC;AACzC,OAAO,KAAK,EAAE,UAAU,EAAE,MAAM,+BAA+B,CAAC;AAEhE,qBAAa,YAAa,SAAQ,KAAK;gBACzB,SAAS,EAAE,MAAM;IAK7B;;;OAGG;IACH,WAAW,CAAC,EAAE,EAAE,MAAM,GAAG,UAAU;CAIpC"}
