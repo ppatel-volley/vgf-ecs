@@ -1,0 +1,31 @@
+{
+  "name": "@volley/vgf-ecs",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Custom Entity Component System for Volley Games Framework, inspired by EnTT and Flecs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ppatel-volley/vgf-ecs.git"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "test": "vitest",
+    "test:run": "vitest --run",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}
